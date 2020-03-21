@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+    <head>  
+        <title>Nish Web Practice</title>
+        <link href="/normalize.css" rel="stylesheet">
+        <style>
+            
+            header { 
+        color: yellow;        
+        background: url("https://cdn.mos.cms.futurecdn.net/fw5j5cqwCYfQ6j88kxfyHe.jpg");
+        background-size: cover;
+        text-align: center;  
+        font-family: monospace;
+            }
+            h1 {
+                font-size: 50px;
+            }
+            a {
+                color: aqua;
+            }
+            input {
+                
+            border: 0;
+            padding: 15px;
+            font-size: 15px;
+            }
+            input[type="email"] {
+                background: violet;
+            }
+            input[type="submit"] {
+                background: pink;
+                color: magenta;
+            }
+            
+            ul {
+                padding: 10px;
+                background: maroon;
+            }
+            li {
+                display: inline;
+                padding: 20px;
+                
+            }
+            img {
+                margin: 40px 0px 40px 0px;
+                border: 10px solid silver;
+                border-radius: 30px
+            }
+            article {
+                max-width: 800px;
+                padding: 15px;
+                margin: 0 auto;
+            }
+            @media (max-width: 50px) {
+                body {
+                background: black;
+                }
+            }
+            button {
+                padding: 10px 20px;
+                border: 10px solid blue;
+            }
+        </style>
+    
+    
+    
+    </head>
+
+
+
+
+
+    <body>
+    <header>
+    <h1>Nish's blog</h1>
+    
+    
+    <p>Hello and welcome to my very own website!</p>
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Bravestarr3030.jpg">
+        <ul>
+            <li> <a href="#">About</a></li>
+            <li> <a href="#">Events</a></li>
+            <li> <a href="#">Contact</a></li>
+        </ul>
+    
+
+        <article>
+        <h1>James Allen</h1>
+        <p>He who would secure any worldly advantage must be willing to work vigorously for it, and he would be foolish indeed who, waiting with folded hands, expected it to come to him for the mere asking. Do not then vainly imagine that you can obtain the heavenly possessions without making an effort. Only when you commence to work earnestly in the Kingdom of Truth will you be allowed to partake of the Bread of Life, and when you have, by patient and uncomplaining effort, earned the spiritual wages for which you ask, they will not be withheld from you.
+
+If you really seek Truth, and not merely your own gratification; if you love it above all worldly pleasures and gains; more, even, than happiness itself, you will be willing to make the effort necessary for its achievement.</p>
+
+<p>If you would be freed from sin and sorrow; if you would taste of that spotless purity for which you sigh and pray; if you would realize wisdom and knowledge, and would enter into the possession of profound and abiding peace, come now and enter the path of meditation, and let the supreme object of your meditation be Truth.
+
+At the outset, meditation must be distinguished from idle reverie. There is nothing dreamy and unpractical about it. It is a process of searching and uncompromising thought which allows nothing to remain but the simple and naked truth. Thus meditating you will no longer strive to build yourself up in your prejudices, but, forgetting self, you will remember only that you are seeking the Truth. And so you will remove, one by one, the errors which you have built around yourself in the past, and will patiently wait for the revelation of Truth which will come when your errors have been sufficiently removed. In the silent humility of your heart you will realize that</p>
+
+   <p> "There is an inmost centre in us all
+    Where Truth abides in fulness; and around,
+    Wall upon wall, the gross flesh hems it in;
+    This perfect, clear perception, which is Truth,
+    A baffling and perverting carnal mesh
+    Blinds it, and makes all error; and to know,
+    Rather consists in opening out a way
+    Whence the imprisoned splendour may escape,
+    Than in effecting entry for a light
+    Supposed to be without."</p><button>Like</button>
+            </article>
+        <br>
+        <br>
+        <br>
+    <input type="email" placeholder="do not type in here silly">
+        <input type="submit"><br>
+        
+        <p><input type="checkbox">send bonus content</p>
+         </header>
+        <script>
+            
+            $("button").on("click", function() {
+                alert("it works!")
+            });
+        </script>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
